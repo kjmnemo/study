@@ -19,10 +19,8 @@ public class _03_StringCompare {
 
         s1 = new String("1234"); // new String은 다른 주소값으로 생성
         s2 = new String("1234");
-        System.out.println(s1.equals(s2)); //true
-        System.out.println(s1 == s2); //false
-
-
-
+        System.out.println(s1.equals(s2)); //true (내용은 같다)
+        System.out.println(s1 == s2); //false (다른 메모리 공간에 존재)
+        // 문자열 내용 비교시 equals 사용
     }
 }
